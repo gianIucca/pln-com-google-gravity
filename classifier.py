@@ -2,9 +2,9 @@ import pandas as pd
 from gravityai import gravityai as grav 
 import pickle
 
-model = pickle.load(open(''))
-tfidf_vectorizer = pickle.load(open(''))
-label_encoder = pickle.load(open(''))
+model = pickle.load(open('financial_text_classifier', 'rb'))
+tfidf_vectorizer = pickle.load(open('financial_text_vectorizer', 'rb'))
+label_encoder = pickle.load(open('financial_text_encoder', 'rb'))
 
 def process(inPath, outPath):
     #Read input file 
@@ -19,4 +19,4 @@ def process(inPath, outPath):
     output_df = input_df[['id', 'category']]
     output_df.to_csv(outPath, index=False)
 
-grav.wait_for_requests(processß)
+grav.wait_for_requests(process)
