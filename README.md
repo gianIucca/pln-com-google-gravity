@@ -1,4 +1,4 @@
-Sistema de classificação automática de textos financeiros desenvolvido com técnicas de Processamento de Linguagem Natural (NLP) e Machine Learning. O modelo classifica notícias e artigos financeiros em 11 categorias distintas, utilizando TF-IDF para extração de features e Random Forest para classificação. <br>
+-Sistema de classificação automática de textos financeiros desenvolvido com técnicas de Processamento de Linguagem Natural (NLP) e Machine Learning. O modelo classifica notícias e artigos financeiros em 11 categorias distintas, utilizando TF-IDF para extração de features e Random Forest para classificação. <br>
 Categorias de Classificação <br>
 O sistema identifica automaticamente as seguintes categorias financeiras: <br>
 
